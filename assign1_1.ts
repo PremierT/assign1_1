@@ -1,7 +1,7 @@
 let productName: string = "T-shirt";
 let pricePerUnit: number = 200;
 let quantity: number = 6;
-let isMember: boolean = false;
+let isMember: boolean = false; //can_be_true
 
 let totalPrice: number = pricePerUnit * quantity;
 let discount: boolean = totalPrice > 1000 || isMember;
