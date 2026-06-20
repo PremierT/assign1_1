@@ -14,7 +14,7 @@ if(discount == true){
 
 
 console.log("Product is %s, Quantity is %d.\n",productName,quantity);
-console.log("Totalprice is %d.\n",totalPrice);
-console.log("Discount?: %s.\n",discount);
+console.log("Totalprice is %d ฿.\n",totalPrice);
+console.log("Discount?: %s, it's %d.\n",discount,totalPrice*discountrate);
 let netprice: number = totalPrice-(totalPrice*discountrate);
-console.log("Net price is %d.",netprice);
+console.log("Net price is %d. ฿",netprice);
