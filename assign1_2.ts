@@ -9,9 +9,9 @@ let showcase: boolean = isPremium && isAvailable;
 let netprice: number = price - (price*0.15);
 
 console.log("-----------------------------");
-console.log("รหัส ISBN is \"%s\".\n",isbn);
-console.log("หนังสือ %s, ราคา %d ฿.\n",bookSummary[0],bookSummary[1]);
-console.log("ส่วนลด %d ฿, ราคาสุทธิ %d ฿.\n",price*0.15,netprice);
+console.log(`รหัส ISBN is ${isbn}.\n`);
+console.log(`หนังสือ ${bookSummary[0]}, ราคา ${bookSummary[1]} ฿.\n`);
+console.log(`ส่วนลด ${price*0.15} ฿, ราคาสุทธิ ${netprice} ฿.\n`);
 if(isPremium == true){
 	console.log("หนังสือระดับ: Premium.\n");
 }else{
